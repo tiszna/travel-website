@@ -9,17 +9,6 @@ TravelLogs is a travel inspiration and planning website that showcases curated i
 - Contact form for inquiries
 - Responsive design with HTML & CSS
 
-## Folder Structure
-travel-website-HTML-CSS/
-├── index.html # Home page
-├── html/ # Regional and detail pages
-│ ├── asia.html
-│ ├── bali.html
-│ └── under-construction.html
-├── css/ # Stylesheets
-│ └── style.css
-└── images/ # All images
-
 ## Viewing the Website
 - **Live:** [TravelLogs on GitHub Pages](https://tiszna.github.io/travel-website/)
 - **Locally:** Open `index.html` in any web browser.
@@ -33,3 +22,4 @@ travel-website-HTML-CSS/
 - Add JavaScript for interactive features
 - Implement search functionality for destinations
 - Optimize images for faster load time
+
