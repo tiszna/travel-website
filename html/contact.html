@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <div><strong>Travel<span style="color: #0ea5e9;">Logs</span></strong></div>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="asia.html">Asia</a>
+        <a href="under-construction.html">Europe</a>
+        <a href="under-construction.html">Americas</a>
+        <a href="under-construction.html">Oceania</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+  <main id="contactMain">
+    <h1>Contact us</h1>
+    <p>Questions, feedback, or requests; tell us what you need.</p>
+
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Your details</legend>
+
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="First & Last name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="name@example.com" />
+
+        <label for="phone">Phone (SG)</label>
+        <input id="phone" name="phone" type="tel" placeholder="+65 XXXX XXXX" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Trip preferences</legend>
+
+        <label for="region">Region</label>
+        <select id="region" name="region" required>
+          <option>Asia</option>
+          <option>Europe</option>
+          <option>Americas</option>
+          <option>Oceania</option>
+        </select>
+
+        <label for="budget">Budget Range</label>
+        <select id="budget" name="budget" required>
+          <option>Under SGD 1,000</option>
+          <option>SGD 1,000–2,000</option>
+          <option>Over SGD 2,000</option>
+        </select>
+
+        <label for="dates">Preferred dates</label>
+        <input id="dates" name="dates" type="date" />
+
+        <label for="headcount">Travellers</label>
+        <input id="headcount" name="headcount" type="number" min="1" max="12" value="2" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Your message</legend>
+        <label for="message">Tell us more</label>
+        <textarea id="message" name="message" rows="6" placeholder="What kind of trip are you imagining?"></textarea>
+      </fieldset>
+
+      <div>
+        <button class = "card-button" type="submit">Send enquiry</button>
+        <button class="card-button" type="reset">Clear</button>
+      </div>
+    </form>
+  </main>
+
+    <footer>
+      <p>&copy; 2026 TravelLogs. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
